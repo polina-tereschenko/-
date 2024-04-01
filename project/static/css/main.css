@@ -1,0 +1,9 @@
+.navbar-dropdown {
+    position: absolute;
+    background-color: #40ba99;
+}
+
+.navbar-dropdown a {
+    padding: 0.5rem 1rem;
+    color: #fff;
+}
