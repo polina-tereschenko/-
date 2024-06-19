@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<body>
+    <div class="title">
+        <h1 class="title">
+            Settings
+        </h1>
+    </div>
+    <div class="button">
+        <a href="{{ url_for('main.profile') }}" class="navbar-item">Change Password</a>
+        <a href="{{ url_for('main.profile') }}" class="navbar-item">Change Email</a>
+    </div>
+</body>
+
+{% endblock %}

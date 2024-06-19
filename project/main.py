@@ -12,3 +12,7 @@ def index():
 @login_required
 def profile():
     return render_template('profile.html', name=current_user.name)
+
+@main.route('/settings')
+def settings():
+    return render_template('settings.html', name=current_user.name)
